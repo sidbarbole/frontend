@@ -1,0 +1,86 @@
+body {
+    background-color: #a23b61;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.main-container {
+    margin: 2rem 5rem;
+    /* width: 100%; */
+}
+
+@media (min-width: 1200px) {
+    .main-container {
+      max-width: 1140px;
+    }
+  }
+
+header {
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+    padding: 4px;
+}
+
+ul.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.navbar li {
+    margin: 0px;
+}
+
+ul.navbar li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #848577;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+ul.navbar li a:hover {
+    color: #f52b59;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ul.navbar li a i {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+ul.navbar li a.active {
+    background-color: #f52b59;
+}
+
+/* below code helps us to create responsive navbar with flex */
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .navbar {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar li {
+    margin: 0 1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }
+   */
