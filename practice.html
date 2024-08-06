@@ -1,0 +1,30 @@
+            <!-- Below is the event deligation example -->
+            <!-- <ul id="itemList">
+                <li class="item">Item 1</li>
+                <li class="item">Item 2</li>
+                <li class="item">Item 3</li>
+                <li class="item">Item 4</li>
+              </ul>
+              <button id="addItemButton">Add Item</button>
+            
+              <script>
+                const itemList = document.getElementById('itemList');
+                const addItemButton = document.getElementById('addItemButton');
+            
+                itemList.addEventListener('click', function(event) {
+                  if (event.target && event.target.matches('li.item')) {
+                    console.log('List item clicked:', event.target.textContent);
+                  }
+                });
+            
+                addItemButton.addEventListener('click', function() {
+                  addItem('Item ' + (itemList.children.length + 1));
+                });
+            
+                function addItem(text) {
+                  const newItem = document.createElement('li');
+                  newItem.className = 'item';
+                  newItem.textContent = text;
+                  itemList.appendChild(newItem);
+                }
+              </script> -->
