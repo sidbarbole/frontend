@@ -99,9 +99,20 @@ ul.navbar li a.active {
   border: 1px solid;
 }
 
+#boxa {
+  width: 50%;
+  border-right:1px solid gray ;
+  font-size: 50px;
+  padding-left: 100px;
+  background-color:white;
+}
+
+
 #box1 img{
   width: 100%;
 }
+
+
 
 /* below code helps us to create responsive navbar with flex */
 
